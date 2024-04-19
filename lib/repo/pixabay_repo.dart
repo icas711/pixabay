@@ -12,7 +12,7 @@ class PixaBayHitsRepo {
           Uri.parse(
               '$url?key=43459419-0e04e1eb9ad317a43f6bdb3fc&page=$page&per_page=$per_page&q=$query'),
           headers: <String, String>{
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
         );
 
